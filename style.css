@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(175, 175, 175);
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section{
+    width: 1000px;
+    height: 360px;
+}
+
+
+article{
+    background-color: white;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 15px;
+}
+
+.nombre{
+    display: flex;
+    justify-content: flex-start;
+}
+
+h5{
+    margin: 3%;
+}
+
+.nombre img{
+    border-radius: 50%;
+}
+
+.uno{
+    display: flex;
+    justify-content: flex-start;
+}
+
+aside{
+    background-color: white;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 15px;
+}
