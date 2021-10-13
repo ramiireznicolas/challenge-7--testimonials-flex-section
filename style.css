@@ -10,18 +10,14 @@ main{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
-
-section{
-    width: 1000px;
-    height: 360px;
-}
-
 
 article{
     background-color: white;
     padding: 2%;
-    margin: 2%;
+    margin: 1%;
     border-radius: 15px;
 }
 
@@ -48,4 +44,35 @@ aside{
     padding: 1%;
     margin: 1%;
     border-radius: 15px;
+    width: 20%;
+}
+
+/* mediaqueries */
+@media (max-width:1024px){
+    aside{
+        width: 25%;
+    }
+}
+
+@media (max-width:800px){
+    aside{
+        width: 30%;
+    }
+}
+
+@media (max-width:550px){  
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .uno{
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside{
+        width: 96%;
+    }
+
 }
