@@ -55,12 +55,18 @@ aside{
 }
 
 @media (max-width:800px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
     aside{
-        width: 30%;
+        width: 96%;
     }
 }
 
-@media (max-width:550px){  
+@media (max-width:600px){  
     body{
         display: flex;
         flex-direction: column;
@@ -69,10 +75,6 @@ aside{
     .uno{
         display: flex;
         flex-direction: column;
-    }
-
-    aside{
-        width: 96%;
     }
 
 }
